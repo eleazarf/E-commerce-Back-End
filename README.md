@@ -41,5 +41,8 @@ $ npm run seed
 ```
 $ npm start
 ```
+* The following animations demonstrate the testing of the application's API routes using Insomnia Core.
+
+![image1]()
 
 View a [video]() demonstration showcasing the fundamental features.
