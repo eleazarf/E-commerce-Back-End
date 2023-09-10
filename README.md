@@ -11,30 +11,40 @@ Internet retail, also known as e-commerce, is the largest sector of the electron
 
 ## Install
 * Clone the project source code
+
+* To verify Node.js installation, type "node -v" in your command line. If Node is absent, access the Node.js website for installation. Run the following line of code in your terminal to install all the needed packages: 
+```
+npm i 
+```
+
 * Connect to MySQL database with your own database credentials
 ```
-$ mysql -u root -p
+mysql -u root -p
 ``` 
 
 * Create the database schema
 ```
-mysql> source db/schema.sql;
+source db/schema.sql;
 ```
+![Create the database schema](image1.gif)
 
 * Exit the database
 ```
 mysql> exit
 ```
 
-* To verify Node.js installation, type "node -v" in your command line. If Node is absent, access the Node.js website for installation. Subsequently, clone this repository to your machine. Run the following line of code in your terminal to install all the needed packages: 
+* Seed the database from the command line.
 ```
-npm i 
+npm run seed
 ```
+![Seed the database](image2.gif)
 
-* Populate the database
+* Start the application’s server and syncs sequelize models to a MySQL database on the server start.
 ```
-$ npm run seed
+npm start
 ```
+![Start the application’s server](image3.gif)
+
 
 ## Use
 * After installing all the required packages, launch your terminal and execute the following command in the command line:
