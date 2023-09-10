@@ -45,14 +45,7 @@ npm start
 ```
 ![Start the application’s server](./imges/image3.gif)
 
-
 ## Use
-* After installing all the required packages, launch your terminal and execute the following command in the command line:
-```
-$ npm start
-```
-* The following animations demonstrate the testing of the application's API routes using Insomnia Core.
+* Demonstration of GET routes for all categories, all products, and all tags being tested in Insomnia Core.
+![GET routes]()
 
-![image1]()
-
-View a [video]() demonstration showcasing the fundamental features.
