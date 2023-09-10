@@ -26,7 +26,7 @@ mysql -u root -p
 ```
 source db/schema.sql;
 ```
-![Create the database schema](image1.gif)
+![Create the database schema](./imges/image1.gif)
 
 * Exit the database
 ```
@@ -37,13 +37,13 @@ mysql> exit
 ```
 npm run seed
 ```
-![Seed the database](image2.gif)
+![Seed the database](./imges/image2.gif)
 
 * Start the application’s server and syncs sequelize models to a MySQL database on the server start.
 ```
 npm start
 ```
-![Start the application’s server](image3.gif)
+![Start the application’s server](./imges/image3.gif)
 
 
 ## Use
