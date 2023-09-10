@@ -47,5 +47,14 @@ npm start
 
 ## Use
 * Demonstration of GET routes for all categories, all products, and all tags being tested in Insomnia Core.
-![GET routes]()
+![GET routes all](./images/image4.gif)
+
+* Demonstration of GET routes for single categories, single products, and single tags being tested in Insomnia Core.
+![GET routes single](./images/image5.gif)
+
+* Demostration POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia Core.
+![POST routes](./images/image6.gif)
+![PUT routes](./images/image7.gif)
+![DELETE routes](./images/image8.gif)
+
 
