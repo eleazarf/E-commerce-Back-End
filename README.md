@@ -26,7 +26,7 @@ mysql -u root -p
 ```
 source db/schema.sql;
 ```
-![Create the database schema](./imges/image1.gif)
+![Create the database schema](./images/image1.gif)
 
 * Exit the database
 ```
@@ -37,13 +37,13 @@ mysql> exit
 ```
 npm run seed
 ```
-![Seed the database](./imges/image2.gif)
+![Seed the database](./images/image2.gif)
 
 * Start the application’s server and syncs sequelize models to a MySQL database on the server start.
 ```
 npm start
 ```
-![Start the application’s server](./imges/image3.gif)
+![Start the application’s server](./images/image3.gif)
 
 ## Use
 * Demonstration of GET routes for all categories, all products, and all tags being tested in Insomnia Core.
@@ -54,7 +54,7 @@ npm start
 
 * Demostration POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia Core.
 ![POST routes](./images/image6.gif)
+
 ![PUT routes](./images/image7.gif)
-![DELETE routes](./images/image8.gif)
 
-
+![DELETE routes](./images/image8.gif) 
